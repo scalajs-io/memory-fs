@@ -1,0 +1,9 @@
+{
+  "name": "memory-fs-scalajs",
+  "version": "0.4.1",
+  "private": true,
+  "dependencies": {
+    "memory-fs": "^0.4.1",
+    "source-map": "^0.5.6"
+  }
+}
