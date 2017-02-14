@@ -1,21 +1,23 @@
-Memory-fs API for Scala.js
+MemoryFs API for Scala.js
 ================================
-This is a Scala.js type-safe binding for [memory-fs](https://www.npmjs.com/package/memory-fs)
+[memory-fs](https://www.npmjs.com/package/memory-fs) - A simple in-memory filesystem. Holds data in a javascript object.
+
+### Description
 
 A simple in-memory filesystem. Holds data in a javascript object.
 
-#### Build Dependencies
+### Build Dependencies
 
-* [ScalaJs.io v0.3.x](https://github.com/ldaniels528/scalajs.io)
+* [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)
 
-#### Build/publish the SDK locally
+### Build/publish the SDK locally
 
 ```bash
  $ sbt clean publish-local
 ```
 
-#### Running the tests
+### Running the tests
 
 Before running the tests the first time, you must ensure the npm packages are installed:
 
@@ -29,7 +31,7 @@ Then you can run the tests:
 $ sbt test
 ```
 
-#### Examples
+### Examples
 
 Using `MemoryFs` asynchronously via callbacks
 
@@ -130,7 +132,7 @@ def show(label: String, value: js.Any*): Unit = {
 }
 ```
 
-#### Artifacts and Resolvers
+### Artifacts and Resolvers
 
 To add the `MemoryFs` binding to your project, add the following to your build.sbt:  
 
