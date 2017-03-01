@@ -8,7 +8,6 @@ A simple in-memory filesystem. Holds data in a javascript object.
 
 ### Build Dependencies
 
-* [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)
 
 ### Build/publish the SDK locally
@@ -137,7 +136,7 @@ def show(label: String, value: js.Any*): Unit = {
 To add the `MemoryFs` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "memory-fs" % "0.4.1"
+libraryDependencies += "io.scalajs.npm" %%% "memory-fs" % "0.4.1-2"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
