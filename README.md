@@ -136,7 +136,7 @@ def show(label: String, value: js.Any*): Unit = {
 To add the `MemoryFs` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "memory-fs" % "0.4.0-pre2"
+libraryDependencies += "io.scalajs.npm" %%% "memory-fs" % "0.4.0-pre3"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
