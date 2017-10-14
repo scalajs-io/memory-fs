@@ -1,7 +1,8 @@
 package io.scalajs.npm.memoryfs
 
 import io.scalajs.nodejs.buffer.Buffer
-import io.scalajs.nodejs.fs.{FileIOError, ReadStream, Stats, WriteStream}
+import io.scalajs.nodejs.fs.{ReadStream, Stats, WriteStream}
+import io.scalajs.nodejs.FileIOError
 
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
