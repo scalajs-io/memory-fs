@@ -1,7 +1,8 @@
 package io.scalajs.npm.memoryfs
 
 import io.scalajs.nodejs.buffer.Buffer
-import io.scalajs.nodejs.fs.{FileIOError, Stats}
+import io.scalajs.nodejs.fs.Stats
+import io.scalajs.nodejs.FileIOError
 import org.scalatest.FunSpec
 
 import scala.scalajs.concurrent.JSExecutionContext.Implicits.queue
